@@ -89,12 +89,12 @@ CSV isn't just text separated by commas and carriage returns.
 
 According to Read [RFC 4180](https://www.ietf.org/rfc/rfc4180.txt),
 
-* The correct record delimiter is CRLF.
-* The last record may or may not end with CRLF.
+* The correct record delimiter is ``CRLF``.
+* The last record may or may not end with ``CRLF``.
 * The first record may or may not be a header line.
 * Each line contains the same number of fields.
 * Each field may or may not be enclosed by double-quotes.
-* Quote field may contain CRLF, commas or double-quotes.
+* Quote field may contain ``CRLF``, commas or double-quotes.
 * Double quotes are escaped by a preceding double quote.
 
 Technically, CSV is a proprietary format, but these rules are pretty much universal.
