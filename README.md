@@ -99,7 +99,7 @@ According to Read [RFC 4180](https://www.ietf.org/rfc/rfc4180.txt),
 
 Technically, CSV is a proprietary format, but these rules are pretty much universal.
 
-Moreover, in business applications, a CSV does not necessarily follow these rules. It could also mean a derivative format. For example, some industries use CSV to represent structured relational data, where the number of records per line is variable. In such cases, a "header" field, usually the first field of each line, is used to identify the type of record and to infer the number of fields in that partcular line.
+Moreover, in business applications, a CSV does not necessarily follow these rules. It could also mean a derivative format. For example, some industries use CSV to represent structured relational data, where the number of records per line is variable. In such cases, a "header" field, usually the first field of each line, is used to identify the type of record and to infer the number of fields in that particular line.
 
 The component is designed to deal with such issues.
 
