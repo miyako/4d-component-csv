@@ -1,6 +1,10 @@
 # 4d-component-csv
 Import and export CSV
 
+### Version
+
+<img src="https://cloud.githubusercontent.com/assets/1725068/18940649/21945000-8645-11e6-86ed-4a0f800e5a73.png" width="32" height="32" /> 
+
 ### Import
 
 Create a text matrix (2D text array) from CSV.
@@ -40,11 +44,11 @@ ALL RECORDS([Example])
 		
 C_OBJECT($template)
 OB SET($template;\
-		"Field_2";->[Example]Field_2;\
-		"Field_3";->[Example]Field_3;\
-		"Field_4";->[Example]Field_4;\
-		"Field_5";->[Example]Field_5;\
-		"Field_6";->[Example]Field_6)
+	"Field_2";->[Example]Field_2;\
+	"Field_3";->[Example]Field_3;\
+	"Field_4";->[Example]Field_4;\
+	"Field_5";->[Example]Field_5;\
+	"Field_6";->[Example]Field_6)
 
 C_TEXT($json)
 ARRAY OBJECT($records;0)
