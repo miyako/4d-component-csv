@@ -7,9 +7,9 @@ Import and export CSV
 
 ### New
 
-Option ``delimiter`` can be specified to import ``;`` instead of ``,``.
+Option ``delimiter`` can be specified to use ``;`` instead of ``,``.
 
-Option ``skip_errors`` can be specified to continue parsing past incorrectly escaped double-quotes. 
+Option ``skip_errors`` can be specified to skip lines with incorrectly escaped double-quotes. 
 
 ## Examples
 
