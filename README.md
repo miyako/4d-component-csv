@@ -5,6 +5,12 @@ Import and export CSV
 
 <img src="https://cloud.githubusercontent.com/assets/1725068/18940649/21945000-8645-11e6-86ed-4a0f800e5a73.png" width="32" height="32" /> 
 
+### New
+
+Option ``delimiter`` can be specified to import ``;`` instead of ``,``.
+
+Option ``skip_errors`` can be specified to continue parsing past incorrectly escaped double-quotes. 
+
 ## Examples
 
 ### Import
